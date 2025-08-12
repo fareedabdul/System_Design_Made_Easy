@@ -1,0 +1,59 @@
+]--->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>📒 Day 1 – How the Internet Works[---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. DNS (Domain Name System)
+Works like the internet’s phonebook.
+Converts domain names (e.g., google.com) → IP addresses (e.g., 142.250.183.110).
+Without DNS: you’d need to remember IPs for all websites.
+
+Flow:
+Browser: "Where is google.com?"
+DNS: "At 142.250.183.110"
+
+####2. TCP Handshake
+Ensures both computer & server are ready before sending data.
+
+####-3 steps:
+SYN → "Can we talk?"
+SYN-ACK → "Yes, let's talk."
+ACK → "Cool, starting now."
+Prevents half-sent or lost data.
+
+####3. HTTP Request
+Sent after TCP handshake.
+
+Browser asks server:
+GET request: “Please give me the homepage.”
+
+Travels through:
+Your PC → Router → ISP → Internet Backbone → Server
+
+##### 4. Server Response
+Server sends back:
+HTML → content
+CSS → style
+JavaScript → interactivity
+
+#######5. Rendering (Browser Work)
+Parses HTML → loads content.
+Applies CSS → designs the page.
+Executes JS → adds functionality.
+Page appears to user.
+ASCII Full Flow
+
+YOU: type google.com
+ ↓
+DNS: google.com → 142.250.183.110
+ ↓
+TCP: "Let's talk?" "Okay."
+ ↓
+HTTP: "Give homepage" → GET request
+ ↓
+SERVER: sends HTML + CSS + JS
+ ↓
+BROWSER: paints page
+
+
+
+
+####################   Why This Matters in System Design    #######################################
+       Every system you design will use these steps in some way.
+       Understanding this flow is the first step to scaling and optimizing systems.
