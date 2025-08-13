@@ -1,1 +1,29 @@
-git add . && git commit -m "update" && git push
+📒 Day 2 – Client-Server Model (Short Notes)
+Definition
+Client: Requests data/services (e.g., browser, mobile app).
+
+Server: Processes requests, sends responses (connected to database).
+
+Flow
+arduino
+Copy
+Edit
+Client → Request → Server → Database → Response → Client
+Key Points
+Client – Runs on user’s device, sends requests.
+
+Server – Runs 24/7, processes requests, queries database.
+
+Database – Stores and retrieves data.
+
+Types
+Two-Tier: Client ↔ Server
+
+Three-Tier: Client ↔ App Server ↔ Database
+
+Multi-Tier: More than 3 layers (large systems).
+
+Why Important
+Foundation of all web & mobile systems.
+
+Helps in scaling, optimizing performance, and reducing latency.
