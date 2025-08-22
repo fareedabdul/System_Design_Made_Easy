@@ -1,0 +1,3 @@
+What is Scaling?
+
+Scaling = handling more load/users by upgrading or adding resources.
