@@ -27,3 +27,21 @@ Why Important
 Foundation of all web & mobile systems.
 
 Helps in scaling, optimizing performance, and reducing latency.
+
+
+******************************************************************
+1. Vertical Scaling (Scale Up)
+
+Add more power (CPU, RAM, Storage) to one machine.
+Simple but has limits.
+Example: Upgrading from 8GB RAM → 64GB RAM.
+Pros: Easy, less complex.
+Cons: Expensive, hardware limits, single point of failure.
+
+
+2. Horizontal Scaling (Scale Out)
+Add more machines/servers to share the load.
+Requires load balancer.
+Example: Instead of 1 supercomputer, use 10 normal servers.
+Pros: No hard limit, fault tolerance, cost-effective.
+Cons: More complex to manage.
