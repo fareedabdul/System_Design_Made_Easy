@@ -1,0 +1,5 @@
+1. What is a Load Balancer?
+
+A traffic manager that distributes requests across multiple servers.
+
+Prevents one server from being overloaded.
