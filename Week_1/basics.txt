@@ -1,0 +1,13 @@
+What is System Design?
+
+System design is the process of planning and designing the architecture of a software system so it can handle requirements like:
+
+Scalability (growing with users/data)
+
+Reliability (always available)
+
+Maintainability (easy to update)
+
+Efficiency (fast and cost-effective)
+
+It’s basically how big systems like WhatsApp, YouTube, Zomato, or Uber are built.
