@@ -1,0 +1,28 @@
+📒 Day 5 – Caching Basics
+1. What is Caching?
+
+Cache = temporary storage that keeps frequently accessed data closer to the user.
+
+Goal → reduce latency & reduce load on the database/server.
+
+2. Why Cache?
+
+Database queries are slow compared to reading from memory.
+
+Example: Searching “Virat Kohli stats” 1M times → better to store result in cache once.
+
+3. Types of Caching
+
+Browser Cache – Stores static files (HTML, CSS, JS, images).
+
+Application Cache – App layer caching (in-memory).
+
+Database Cache – Store query results to avoid repeated queries.
+
+CDN (Content Delivery Network) – Global cache servers near users.
+
+4. Popular Caching Tools
+
+Redis – in-memory key-value store (super fast).
+
+Memcached – lightweight distributed cache.
