@@ -1,0 +1,7 @@
+What does L4 and L7 mean?
+
+They come from the OSI Model (network layers).
+
+L4 = Layer 4 (Transport Layer) → works with IP + TCP/UDP ports.
+
+L7 = Layer 7 (Application Layer) → works with application data like HTTP, HTTPS, gRPC.
