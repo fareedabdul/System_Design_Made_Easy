@@ -5,3 +5,33 @@ They come from the OSI Model (network layers).
 L4 = Layer 4 (Transport Layer) → works with IP + TCP/UDP ports.
 
 L7 = Layer 7 (Application Layer) → works with application data like HTTP, HTTPS, gRPC.
+
+
+Layer 4 (L4) Load Balancer
+
+Makes decisions based on IP address and port.
+
+Does NOT look inside the content of the request.
+
+Fast and lightweight.
+
+
+✅ Example:
+
+Client sends request to instagram.com
+
+L4 LB checks → “Oh, port 443 (HTTPS)” → sends it to Server A or B.
+
+
+📌 Tools: AWS NLB (Network Load Balancer), HAProxy in TCP mode
+
+
+---
+
+🔹 Layer 7 (L7) Load Balancer
+
+Makes decisions based on application-level content (HTTP headers, cookies, URLs).
+
+Smarter than L4.
+
+Can route requests differently depending on the content.
