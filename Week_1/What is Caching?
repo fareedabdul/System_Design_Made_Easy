@@ -1,0 +1,3 @@
+Caching is the process of storing frequently used data in a fast storage layer so that future requests can be served quickly without going to the main database or service every time.
+
+Makes your system faster, reduces load, and improves user experience.
