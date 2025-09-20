@@ -15,3 +15,21 @@ Cons: Limited by hardware; can get very expensive.
 Example:
 
 Your SQL server has 8GB RAM → upgrade to 64GB RAM to handle more requests.
+
+Horizontal Scaling (Scaling Out)
+
+Add more database servers to share the load.
+
+Pros: Can handle huge traffic; more fault-tolerant.
+
+Cons: More complex (data distribution, consistency).
+
+Techniques:
+
+Sharding: Split database by some key (e.g., user_id) → User 1-1M on DB1, 1M-2M on DB2
+
+Replication: Copy data to multiple servers → improves read performance
+
+Master-Slave: Master handles writes, slaves handle reads
+
+Master-Master: Both can handle reads & writes (complex)
