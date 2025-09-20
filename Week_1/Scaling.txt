@@ -1,0 +1,17 @@
+Topic 4: Database Scaling
+
+When your system grows, databases can become a bottleneck. Scaling databases ensures your system can handle more users and data.
+
+🔹 Two Main Types of Scaling
+
+Vertical Scaling (Scaling Up)
+
+Add more resources to a single database server (CPU, RAM, SSD).
+
+Pros: Simple, no application changes needed.
+
+Cons: Limited by hardware; can get very expensive.
+
+Example:
+
+Your SQL server has 8GB RAM → upgrade to 64GB RAM to handle more requests.
