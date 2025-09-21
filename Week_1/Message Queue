@@ -1,0 +1,6 @@
+Topic 5: Message Queues (Asynchronous Processing)
+What is a Message Queue?
+
+A Message Queue (MQ) is a system that lets different services communicate asynchronously.
+
+Instead of sending data directly and waiting, one service can drop a message in a queue, and another service can pick it up later.
