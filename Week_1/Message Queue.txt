@@ -1,0 +1,41 @@
+Topic 5: Message Queues (Asynchronous Processing)
+What is a Message Queue?
+
+A Message Queue (MQ) is a system that lets different services communicate asynchronously.
+
+Instead of sending data directly and waiting, one service can drop a message in a queue, and another service can pick it up later.
+
+
+Why do we need it?
+
+Imagine Zomato:
+
+10,000 people order food at the same time.
+
+If each order directly hits the Payment + Restaurant + Delivery services, servers may crash.
+
+👉 With a Message Queue:
+
+Orders go into the queue.
+
+Services process them one by one (or in parallel, based on capacity).
+
+No overload, system stays stable.
+
+🔹 How it Works
+
+Producer → sends message (e.g., order request).
+
+Queue → stores the message temporarily.
+
+Consumer → reads the message and processes it.
+
+🔹 Benefits
+
+Decoupling: Producers & consumers don’t need to know about each other.
+
+Scalability: Add more consumers when load increases.
+
+Reliability: Messages aren’t lost (persistent queues).
+
+Smooth load handling: Prevents system crashes during traffic spikes.
