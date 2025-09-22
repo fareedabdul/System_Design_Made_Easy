@@ -22,8 +22,7 @@ Client sends request to instagram.com
 
 L4 LB checks → “Oh, port 443 (HTTPS)” → sends it to Server A or B.
 
-
-📌 Tools: AWS NLB (Network Load Balancer), HAProxy in TCP mode
+ Tools: AWS NLB (Network Load Balancer), HAProxy in TCP mode
 
 
 🔹 Layer 7 (L7) Load Balancer
